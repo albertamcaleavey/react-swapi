@@ -56,7 +56,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  padding: 15px;
+  padding: 20px;
 }
 
 .starship-detail-container {
@@ -66,7 +66,7 @@
 }
 
 .starship-detail-div {
-  height: 200px;
+  height: fit-content;
   width: 500px;
   justify-content: start;
 }
