@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import StarshipDetails from "../../pages/StarshipDetails/StarshipDetails";
 import { getPilots } from "../../services/sw-api";
 import { useLocation } from "react-router-dom";
 
@@ -10,9 +9,8 @@ const PilotList = (props) => {
   
   useEffect(()=> {
     getPilots(location.state.starship.pilots).then(pilots => setPilotList(pilots))
-  }, [])
+  })
   
-  console.log(location)
 
   return (  
     <>
