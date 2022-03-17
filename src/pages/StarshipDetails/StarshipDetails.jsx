@@ -13,11 +13,14 @@ const StarshipDetails = (props) => {
   })
   return (  
     <>
+    <div className="starship-detail-container">
       <div className="starship-detail-div">
-        <p>Name: {starshipDetails.name}</p>
-        <p>Model: {starshipDetails.model}</p>
+        <p>NAME: {starshipDetails.name}</p>
+        <p>MODEL: {starshipDetails.model}</p>
         <a className="App-link" href="/">RETURN</a>
       </div>
+    </div>
+      
 
     </>
     

@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #202020;
   min-height: 8vh;
   display: flex;
   flex-direction: column;
@@ -43,14 +43,15 @@
   flex-wrap: wrap;
   margin: auto;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .starship-div, .starship-detail-div {
-  background-color: #2f3b30;
+  background-color: #354d37;
   margin: 8px;
   color: white;
   width: 200px;
-  height: 100px;
+  height: 80px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -58,10 +59,18 @@
   padding: 15px;
 }
 
+.starship-detail-container {
+  display: grid;
+  justify-content: center;
+  margin-top: 10%;
+}
+
 .starship-detail-div {
   height: 200px;
-  width: 400px;
-  display: grid;
+  width: 500px;
+  justify-content: start;
 }
+
+
 
 
